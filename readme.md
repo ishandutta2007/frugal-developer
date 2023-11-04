@@ -14,6 +14,9 @@ Built with Hugo Static site generator and hosted at Netlify.
 ## License
 MIT License
 
+## Credits
+[freeStuffDev](https://github.com/hilmanski/freeStuffDev) by Hilman Ramadhan
+
 ## Rules
 1. Only accept free stuff or free trial at least 1 Year.
 2. What is not suitable on this site:   
