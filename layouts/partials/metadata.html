@@ -1,0 +1,35 @@
+{{ $title := .Title }}
+{{ $desc := "" }}
+{{ $ogimage := "https://i.ibb.co/vVXdSqH/thumbnail-fsd.jpg" }}
+{{ $twCardStyle := "summary_large_image" }}
+
+{{ if .Description }} 
+    {{ $desc = .Description }} 
+{{ else }} 
+    {{ $desc = .Site.Params.Description }}  
+{{ end }}
+
+{{ if hasPrefix .RelPermalink "/alternative/" }}
+    {{ $title = print .Title " free alternatives service"}}
+    {{ $listtags := "" }}
+    {{ with .Params.tags }}{{ $listtags = delimit . ", "}}{{ end }}
+    {{ $desc = print "List of free alternatives to " .Title " for developer. Find other service for " $listtags " other than " .Title ". Find out what is " .Title " rival and competitor" }}
+    {{ $ogimage = .Params.Thumbnail }}
+    {{ $twCardStyle = "summary" }}
+{{ end }}
+
+{{ if hasPrefix .RelPermalink "/tags/" }}
+    {{ $title = print "Free " .Title " service for dev"}}
+    {{ $desc = print "List of free " .Title " service or " .Title " tools for developer to use for MVP or prototyping product. This is a collective list of free " .Title " service, you can also submit your product here."}}
+{{ end }}
+
+<title>{{ $title }}</title>
+<meta name="description" content="{{$desc}}" property="og:description">
+
+<meta name="twitter:card" content="{{ $twCardStyle }}" />
+<meta name="twitter:site" content="@fullofdev" />
+<meta name="twitter:creator" content="@fullofdev" />
+<meta property="og:url" content="{{ .Permalink }}" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{$desc}}" />
+<meta property="og:image" content="{{ $ogimage }}" />

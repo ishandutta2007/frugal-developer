@@ -1,0 +1,24 @@
+baseURL : https://frugal-developer.repl.co
+languageCode : en
+title : Free Developer Stuff
+
+buildFuture : true
+
+params:
+    description: List of free stuff for developer by developer to use. This is a collective list of useful services for developer you can use for your next MVP or prototpying your idea.
+
+staticDir: static
+
+permalinks:
+    blog : blog/:title/
+    stuff : /alternative/:title
+
+summaryLength: 25
+
+outputs:
+    section : ["HTML", "RSS", "JSON"]
+
+taxonomies:
+    category : categories
+    topic : topics
+    tag : tags

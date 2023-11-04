@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap')
+
+$gold: rgb(227, 187, 84)
+$bodyBg: #F7F8FF
+$mainColor: #333
+$darkmodeBg: #2D2D2D
+$darkmodeItemBg: #403E40
+$lightGray: #EBEAE6
+$darkGray: #8E8E8E
+$darkmodeColor: rgb(227, 227, 227)
+$darkmodeLinkColor: rgb(247, 247, 247)
+$fontBase: 'Oxygen', sans-serif
+
+
+*, *:before, *:after
+    -webkit-box-sizing: border-box !important
+    -moz-box-sizing: border-box !important
+    -ms-box-sizing: border-box !important
+    box-sizing: border-box !important
+
+*
+    margin: 0px
+    padding: 0px
+
+html
+    scroll-behavior: smooth
+
+body
+    font-size: 14px
+    margin: 50px auto
+    width: 90%
+    max-width: 1200px
+    line-height: 1.4rem
+    font-family: $fontBase
+    color: $mainColor
+    background: $bodyBg
+
+body.darkmode 
+    background: $darkmodeBg
+    color: $darkmodeColor
+    sidebar
+        background: #242224
+        color: $darkmodeColor
+    .cards
+        background: $darkmodeItemBg
+        color: $darkmodeColor
+    .sponsor
+        &:hover
+            background: $darkmodeItemBg
+        a
+            &:hover
+                background: $darkmodeItemBg
+                border-radius: 20px
+    a
+        color: $darkmodeLinkColor
+        &:hover 
+            background: $darkGray
+    .darkModeBtn
+        &:hover
+            background: $darkGray
+    input[type=search]
+        color: $darkmodeColor
+    .modal-content
+        background: $darkmodeItemBg
+    
+
+nav
+    font-size: 1rem
+    a
+        display: block
+        border-radius: 10px
+        padding: 5px 10px
+        &:hover
+            background: $lightGray
+    span
+        cursor: pointer
+
+#logo
+    transform: scale(1.2)
+    transformOrigin: 0% 0% 0px
+    max-width: 80px
+    margin-right: 25px
+
+sidebar
+    background: white
+    position: fixed
+    top: 0px
+    left: 0px
+    padding: 50px 30px
+    min-height: 100%
+
+.maincontent
+    margin-left: 1/3 * 100%
+
+.is-hidden
+    display: none
+
+.darkModeBtn 
+    border-radius: 10px
+    padding: 5px 10px
+    &:hover
+        background: #ebeae6
+    
+
+.cards
+   &.sponsor
+        padding: 0px !important
+        .title
+            font-size: 1.1rem
+            margin-bottom: 5px
+        a
+            padding: 15px
+            transition: padding ease-in 0.5s
+            &:hover
+                padding: 20px 15px
+
+.marginless
+    margin: 0px
+
+.center
+    text-align: center
+
+.underlined
+    text-decoration: underline
+
+h1, h2
+    margin-bottom: 20px
+    line-height: 40px
+
+h3
+    margin-bottom: 10px
+
+a
+    color: rgb(48, 48, 48)
+    text-decoration: none
+    &:hover
+        cursor: pointer
+
+.link
+    border-bottom: #65616C 2px solid
+
+ul
+    padding-left: 0px
+
+pre
+    padding: 10px
+    font-size: 1rem
+    overflow: auto
+
+header
+    margin-bottom: 20px
+    font-size: 1.2rem
+
+.-mt-5
+    margin-top: -15px
+
+#branding
+    a
+        font-size: 1.5rem
+
+#theme
+    font-size: 1.5rem
+    &:hover
+        cursor: pointer
+
+.is-avatar
+    border-radius: 50%
+
+#date
+    display: inline-block
+    font-size: 1rem
+
+#filter-tag
+    border-top: 1px solid #333
+    border-bottom: 1px solid #333
+    padding: 5px 0
+    summary
+        margin-bottom: 5px
+
+.flex, .flex-on-mobile
+    display: flex
+    &.is-space-between
+        justify-content: space-between
+    &.is-space-around
+        justify-content: space-around
+    &.is-align-items
+        align-items: center
+    &.is-flex-end
+        justify-content: flex-end
+    .is-half
+        width: 50%
+    .is-one-fifth
+        width: (1/5 * 100%)
+    .is-four-fifth
+        width: (4/5 * 100%)
+    .is-two-fifths
+        width: (2/5 * 100%)
+    .is-three-fifths
+        width: (3/5 * 100%)
+    .is-two-thirds
+        width: (2/3 * 100%)
+    .is-one-third
+        width: (1/3 * 100%)
+
+.flex-col
+    display: flex
+    flex-direction: column
+
+.header-on-main
+    h1, h2
+        margin-bottom: 5px
+    .button
+        width: 150px
+        padding: 5px
+        border-radius: 10px
+        border: #333
+        color: #333
+        background: white
+        text-align: center
+        transition: background ease-in 0.1s
+        &:hover
+            cursor: pointer
+            background: #333
+            color: white
+    .btn-mode
+        padding: 5px 15px
+        background: none
+        border: 1px solid white
+        color: white
+
+.pr-5
+    padding-right: 5%
+
+.cards
+    background: #fff
+    padding: 20px 30px 20px
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2)
+    transition: 0.3s
+    border-radius: 20px
+    position: relative
+    transition: padding 0.5s ease
+    .title
+        font-size: 1.5rem
+    .subtitle
+        font-size: 1.2rem
+        margin-bottom: 5px
+    .text-small
+        line-height: 1rem
+    summary
+        margin: 10px 0
+    img
+        margin-right: 20px
+        max-width: 80px
+        max-height: 80px
+    &:hover
+        padding: 30px
+
+.label
+    padding: 2px 5px
+    display: inline-block
+    background: #EF3DA8
+    color: white
+    border-radius: 5px
+
+.label-new
+    background: #FC3951
+
+.pin-right
+    position: absolute
+    right: 25px
+    top: 0px
+
+.pin-left
+    position: absolute
+    left: 25px
+    top: 5px
+
+.mt-20
+    margin-top: 20px
+
+.mb-10
+    margin-bottom: 10px
+
+.my-20
+    margin-top: 20px
+    margin-bottom: 20px
+
+.v-distance
+    > div
+        margin-bottom: 30px
+
+input[type="search"]
+    -webkit-appearance: none
+    display: block
+    width: 100%
+    padding: 10px
+    border: 1px solid grey
+    border-radius: 10px
+    font-size: 1rem
+    background: transparent
+    &:focus
+        outline: none
+
+.topics, .tags
+    font-size: 0.8rem
+    list-style: none
+    border-radius: 5px
+    li
+        display: inline-block
+        margin: 0 1px
+        margin-bottom: 2px
+    a
+        padding: 0px 5px
+        display: inline-block
+        border-radius: 3px
+        border: 1px solid #838383
+        font-size: 0.8rem
+        color: #333
+        &:hover
+            background: #333
+            color: white
+
+#pagination
+    text-align: center
+    a
+        margin-top: 25px
+        display: inline-block
+        text-align: center
+        padding: 10px 20px
+        &:hover
+            background: $gold
+
+.offerlist
+    max-height: 250px
+    overflow-y: auto
+    text-align: right
+    white-space: pre-line
+    padding-left: 20px
+    &::-webkit-scrollbar
+        width: 10px
+    &::-webkit-scrollbar-thumb
+        background: transparent
+        box-shadow: inset 0 0 0 10px #adadad
+        border-left: 5px solid transparent
+        
+
+footer
+    margin-top: 20px
+    a
+        text-decoration: underline
+
+.on-mobile-only
+    display: none
+
+@import 'modal'
+@import 'topics-label'
+@import 'responsive'
+
+
+#scroll-to-top 
+  display: none
+  position: fixed
+  bottom: 20px
+  right: 30px
+  z-index: 99
+  border: 2px solid grey
+  outline: none
+  background-color: transparent
+  color: white
+  cursor: pointer
+  padding: 10px
+  border-radius: 50%
+  &:hover 
+    background-color: grey
+
