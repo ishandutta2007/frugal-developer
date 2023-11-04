@@ -27,7 +27,7 @@ HUGO_VERSION = "0.74.3"
 HUGO_ENABLEGITINFO = "true"
 
 [[redirects]]
-  from = "https://frugal-developer.repl.co/blog/*"
+  from = "https://frugal-developer.netlify.app/blog/*"
   to = "https://onebite.dev/:splat"
   status = 301
   force = true

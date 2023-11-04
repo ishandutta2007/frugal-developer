@@ -1,7 +1,7 @@
 ## Contribute
 Want to add new stuff?   
 1a. Use this form
-[Form New Stuff+](https://frugal-developer.repl.co/new-stuff)  
+[Form New Stuff+](https://frugal-developer.netlify.app/new-stuff)  
 it will prefill some value for your github Pull Request
 
 1b. If you're going to create file manually (not via link above):
@@ -28,7 +28,7 @@ free feature 3
 P.S:
 
 - You can use any image for thumbnail, but try to avoid using small favicons(16x16) as each **image will be resized to 80x80**
-- For existing tags visit https://frugal-developer.repl.co/ and open the "Filter"
+- For existing tags visit https://frugal-developer.netlify.app/ and open the "Filter"
 - At the end write the features as one feature per line
 
 Example with [netlify.md](https://github.com/NEK-RA/frugal-developer/blob/main/content/stuff/netlify.md) (watch it [raw version](https://raw.githubusercontent.com/NEK-RA/frugal-developer/main/content/stuff/netlify.md))

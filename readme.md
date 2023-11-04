@@ -3,10 +3,10 @@
 
 ## frugal-developer
 List of free services for developers like database, hosting, authentication and other stuff.  
-Check it out at [frugal-developer.repl.co](https://frugal-developer.repl.co). 
+Check it out at [frugal-developer.netlify.app](https://frugal-developer.netlify.app). 
 
 I had many tools in my private repository and thought why not bring it to the public?
-Inspired by [other awesome list sites](https://frugal-developer.repl.co/tags/awesome-list/), surprisingly there are not many alternatives out there that focusing on free programming tools, so I created my own dev-tool list to start prototyping or making an MVP.
+Inspired by [other awesome list sites](https://frugal-developer.netlify.app/tags/awesome-list/), surprisingly there are not many alternatives out there that focusing on free programming tools, so I created my own dev-tool list to start prototyping or making an MVP.
 
 
 Built with Hugo Static site generator and hosted at Netlify.
@@ -30,7 +30,7 @@ They're great but there are more suitable place for those tools.
 ## Contribute
 Want to add new stuff?   
 1a. Use this form
-[Form New Stuff+](https://frugal-developer.repl.co/new-stuff)  
+[Form New Stuff+](https://frugal-developer.netlify.app/new-stuff)  
 it will prefill some value for your github Pull Request
 
 1b. If you're going to create file manually (not via link above):
@@ -57,7 +57,7 @@ free feature 3
 P.S:
 
 - You can use any image for thumbnail, but try to avoid using small favicons(16x16) as each **image will be resized to 80x80**
-- For existing tags visit https://frugal-developer.repl.co/ and open the "Filter"
+- For existing tags visit https://frugal-developer.netlify.app/ and open the "Filter"
 - At the end write the features as one feature per line
 
 Example with [netlify.md](https://github.com/NEK-RA/frugal-developer/blob/main/content/stuff/netlify.md) (watch it [raw version](https://raw.githubusercontent.com/NEK-RA/frugal-developer/main/content/stuff/netlify.md))
