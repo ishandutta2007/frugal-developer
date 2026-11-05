@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1000px)
+    .on-desktop-only
+        display: block
+
+@media only screen and (max-width: 1000px)
+    body
+        width: 90%
+        font-size: 16px
+
+    sidebar
+        position: relative
+        padding: 0px
+
+    .maincontent
+        margin-left: 0px
+
+    .columns
+        display: block
+
+    header
+        font-size: 1rem
+        
+    nav
+        text-align: right
+        a
+            display: inline-block
+
+    h1
+        font-size: 1.5rem
+    h3 
+        margin: 0 0 1.5rem 4rem
+    .tags
+        li
+            margin: 2px
+
+    .flex-on-mobile
+        display: flex
+        align-items: center
+
+    .flex
+        display: block
+        .is-half, .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-thirds, .is-three-fifths
+            width: 100%
+        &.flex-on-mobile
+            display: flex
+            .is-half, .is-one-fifth, .is-four-fifth, .is-one-third, .is-two-thirds, .is-three-fifths
+                width: auto
+
+    .cards
+        padding: 40px 30px
+        width: 100%
+        img
+            position: absolute
+            top: 30px
+            max-width: 50px
+            max-height: 50px
+            min-width: 50px
+            transition: top .5s ease
+        .offerlist
+            text-align: left
+            margin-top: 10px
+            padding-left: 0px
+        &.sponsor
+            font-size: 0.8rem
+            .title
+                margin-bottom: 0px
+        &:hover
+            padding: 50px 30px
+            img
+                top: 40px
+    .sponsor
+        .cards
+            img
+                left: 0px
+                top: 0px
+                position: relative
+
+    .on-mobile-only
+        display: block
+
+    .on-desktop-only
+        display: none

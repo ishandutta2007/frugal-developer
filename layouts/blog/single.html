@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<div id="blog">
+    <main>
+      <h1 class="title">{{ .Title }}</h1>
+        <article>
+        {{ .Content }}
+        </article>
+    </main>
+
+    <br>
+    <aside id="meta">
+        <section>
+            <ul class="topics">Topics:
+                {{ range .Params.topics }}
+                  <li><a class="topics-{{.}}" href="/topics/{{.}}">{{ . }}</a> </li>
+                {{ end }}
+                | <li id="date"> {{ .Date.Format "Mon Jan 2, 2006" }} </li>
+            </ul>
+        </section>
+    </aside>
+    <br>
+</div>
+
+{{ end }}
