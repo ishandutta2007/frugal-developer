@@ -92,3 +92,12 @@ If you have any questions, feel free to open an issue or reach out at [twitter](
   <img src="https://contrib.rocks/image?repo=ishandutta2007/frugal-developer" />
 </a>
 # frugal-developer
+
+## ⭐ Star History
+
+<a href="https://star-history.com/#ishandutta2007/frugal-developer&Timeline" align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/ishandutta2007_frugal-developer_growth.svg">
+    <img alt="Star History Chart" src="assets/ishandutta2007_frugal-developer_growth.svg">
+  </picture>
+</a>
