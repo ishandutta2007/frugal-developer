@@ -1,77 +1,99 @@
-<img src="https://i.ibb.co/ZHwQF1b/Screen-Shot-2022-09-23-at-15-50-49-removebg-preview.png" width="120px"/>
+<div align="center">
+  <img src="https://i.ibb.co/ZHwQF1b/Screen-Shot-2022-09-23-at-15-50-49-removebg-preview.png" alt="Frugal Developer Logo" width="120px"/>
 
+  # Frugal Developer 💸⚡
 
-## frugal-developer
-List of free services for developers like database, hosting, authentication and other stuff.  
-Check it out at [frugal-developer.netlify.app](https://frugal-developer.netlify.app). 
+  **A curated list of free developer tools, free-tier cloud services, and APIs for building MVPs and side projects without spending a dime.**
 
-I had many tools in my private repository and thought why not bring it to the public?
-Inspired by [other awesome list sites](https://frugal-developer.netlify.app/tags/awesome-list/), surprisingly there are not many alternatives out there that focusing on free programming tools, so I created my own dev-tool list to start prototyping or making an MVP.
+  [![Website](https://img.shields.io/website?url=https%3A%2F%2Ffrugal-developer.netlify.app&label=frugal-developer.netlify.app)](https://frugal-developer.netlify.app)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://frugal-developer.netlify.app/new-stuff)
+  [![GitHub stars](https://img.shields.io/github/stars/ishandutta2007/frugal-developer?style=social)](https://github.com/ishandutta2007/frugal-developer/stargazers)
 
+  🌐 **Live Site:** [frugal-developer.netlify.app](https://frugal-developer.netlify.app)
+</div>
 
-Built with Hugo Static site generator and hosted at Netlify.
+---
 
-## License
-MIT License
+## 📖 Overview
 
-## Credits
-[freeStuffDev](https://github.com/hilmanski/freeStuffDev) by Hilman Ramadhan
+**Frugal Developer** is a comprehensive, community-driven catalog of **free developer tools**, **free-tier cloud services**, **APIs**, **databases**, **web hosting**, **authentication**, and **serverless infrastructure**. 
 
-## Rules
-1. Only accept free stuff or free trial at least 1 Year.
-2. What is not suitable on this site:   
-   - We're not accepting language/framework specific tools. 
-   - Link to "part of specific tools" for example "themes for hugo"
-   - Library for a certain framework/language, (e.g. Javascript library). 
-   - Link to Documentation or Forum of a certain tool
+When building prototypes, indie hacker products, side projects, or early MVPs, infrastructure costs can pile up quickly. This collection helps software engineers, indie makers, and students build and ship full-stack applications with generous free tiers or completely free tiers (at least 1-year free trial).
 
-They're great but there are more suitable place for those tools. 
+Inspired by [other awesome list sites](https://frugal-developer.netlify.app/tags/awesome-list/), built with the [Hugo](https://gohugo.io/) static site generator and deployed on [Netlify](https://www.netlify.com/).
 
-## Contribute
-Want to add new stuff?   
-1a. Use this form
-[Form New Stuff+](https://frugal-developer.netlify.app/new-stuff)  
-it will prefill some value for your github Pull Request
+---
 
-1b. If you're going to create file manually (not via link above):
+## 🗂️ Categories of Free Tools
 
-a. Fork repo  
-b. Inside your fork navigate to `content/stuff`  
-c. Create a new file for service you want to add. File must have `.md` extension, i.e. `myservice.md`  
-d. Use next template for content
+Explore categorized resources on [frugal-developer.netlify.app](https://frugal-developer.netlify.app):
 
-```
+- ☁️ **Web Hosting & PaaS / Serverless:** Static hosting, frontend deployment, container runtimes, serverless functions.
+- 🗄️ **Databases & BaaS:** Managed PostgreSQL, MySQL, NoSQL, Redis, Vector DBs, and backend-as-a-service platforms.
+- 🔐 **Authentication & Security:** User identity, OAuth providers, secrets management, SSL certificates.
+- 🔌 **APIs & Webhooks:** Generative AI & ML APIs, payment gateways, messaging/SMS, email delivery, geolocation.
+- 📊 **Monitoring, Analytics & CI/CD:** Application logs, error tracking, automated CI/CD pipelines, uptime alerts.
+- 🛠️ **Developer Productivity:** Design tools, code editors, mock data generators, screenshot APIs, and collaboration tools.
+
+---
+
+## 📜 Contribution Rules
+
+We love contributions! To keep this repository focused and high quality:
+
+1. **Free Tier Requirement:** The service must offer a perpetually free tier or a free trial lasting at least 1 year without requiring an upfront paid subscription.
+2. **General / Platform-Agnostic Tools:**
+   - ❌ **No language/framework-specific tools:** (e.g., Hugo themes, React UI libraries, npm utility packages).
+   - ❌ **No libraries or framework packages:** (e.g., JavaScript npm packages, Python wheels).
+   - ❌ **No documentation sites or community forums:** Links should be to the actual tool or service.
+
+---
+
+## 🤝 How to Contribute
+
+Want to submit a new service or free tool?
+
+### Method 1: Interactive Submission Form (Fastest)
+Use the [New Stuff Submission Form](https://frugal-developer.netlify.app/new-stuff). It will prefill the required values and help generate your pull request automatically.
+
+### Method 2: Manual Pull Request
+
+1. Fork this repository.
+2. Create a new markdown file inside `content/stuff/<service-name>.md` (e.g., `content/stuff/myservice.md`).
+3. Fill in the service details using this template:
+
+```toml
 +++
-date = 2021-06-21T18:55:27+03:00
-title = "Your service name"
+date = 2026-11-05T00:00:00+00:00
+title = "Your Service Name"
 link = "https://link.to.service"
 thumbnail = "https://any.logo.of/service"
-snippet="Service description, which will be shown under service name"
-tags = ["Tag1","Tag2","TagN"]
+snippet = "Service description, shown under the service name"
+tags = ["hosting", "database"]
 +++ 
-free feature 1
-free feature 2
-free feature 3
+Free feature 1 (e.g., 500 MB free storage)
+Free feature 2 (e.g., 10,000 requests/month)
+Free feature 3
 ```
 
-P.S:
+> **Submission Tips:**
+> - Avoid small 16x16 favicons; thumbnails are automatically resized to **80x80**.
+> - Browse existing tags at [frugal-developer.netlify.app](https://frugal-developer.netlify.app/) under "Filter".
+> - List each free-tier feature or quota limit on its own line.
 
-- You can use any image for thumbnail, but try to avoid using small favicons(16x16) as each **image will be resized to 80x80**
-- For existing tags visit https://frugal-developer.netlify.app/ and open the "Filter"
-- At the end write the features as one feature per line
-
-Example with [netlify.md](https://github.com/NEK-RA/frugal-developer/blob/main/content/stuff/netlify.md) (watch it [raw version](https://raw.githubusercontent.com/NEK-RA/frugal-developer/main/content/stuff/netlify.md))
-```
+#### Real-world Example: [`content/stuff/netlify.md`](content/stuff/netlify.md)
+```toml
 +++
 date = "2021-06-15T00:00:00+00:00"
 tags = ["hosting", "hosting-dynamic", "hosting-static", "serverless"]
-title="Netlify"
+title = "Netlify"
 link = "https://www.netlify.com/"
 thumbnail = "https://res.cloudinary.com/wegoatdev/image/upload/v1623795952/frugal-developer/stuff/netlify.png"
-snippet="An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps"
+snippet = "An intuitive Git-based workflow and powerful serverless platform to build, deploy, and collaborate on web apps"
 +++
 Host static and serverless function
-Bandwith: 100GB /month
+Bandwidth: 100GB /month
 Build Minutes: 300 Minutes /month
 Websites: Unlimited
 Serverless Functions: 125k per site /month
@@ -79,19 +101,27 @@ Forms: 100 /site/month
 Identity: 1K /site/month
 ```
 
-## Code of Conduct
-frugal-developer is open for contribution from all people around the world. Whoever your are and whatever your background: nationality, gender, religion, we welcome you. Things to keep in mind:
-- Show empathy
-- Be patient
-- Accept constructive feedback
+---
 
-If you have any questions, feel free to open an issue or reach out at [twitter](https://twitter.com/ishandutta2007)
+## 🤝 Code of Conduct
 
-## Contributors
+`frugal-developer` is open for contribution from developers around the world regardless of nationality, gender, or background.
+- Show empathy and respect.
+- Be patient and constructive with feedback.
+
+Questions or feedback? Open an [issue](https://github.com/ishandutta2007/frugal-developer/issues) or reach out on Twitter/X: [@ishandutta2007](https://twitter.com/ishandutta2007).
+
+---
+
+## 👥 Contributors
+
+Thanks goes to these wonderful people:
+
 <a href="https://github.com/ishandutta2007/frugal-developer/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=ishandutta2007/frugal-developer" />
+  <img src="https://contrib.rocks/image?repo=ishandutta2007/frugal-developer" alt="List of Contributors" />
 </a>
-# frugal-developer
+
+---
 
 ## ⭐ Star History
 
@@ -101,3 +131,10 @@ If you have any questions, feel free to open an issue or reach out at [twitter](
     <img alt="Star History Chart" src="assets/ishandutta2007_frugal-developer_growth.svg">
   </picture>
 </a>
+
+---
+
+## 📄 License & Credits
+
+- **License:** [MIT License](LICENSE)
+- **Credits:** Inspired by [freeStuffDev](https://github.com/hilmanski/freeStuffDev) by Hilman Ramadhan.
