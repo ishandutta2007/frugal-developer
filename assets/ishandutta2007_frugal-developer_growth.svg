@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-11-05T08:02:39.339247</dc:date>
+    <dc:date>2026-11-05T08:18:29.550243</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,23 +40,23 @@ z
    <g id="matplotlib.axis_1">
     <g id="xtick_1">
      <g id="line2d_1">
-      <path d="M 256.707823 374.605464 
-L 256.707823 29.04 
-" clip-path="url(#p9b7ef696b6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 256.705722 374.605464 
+L 256.705722 29.04 
+" clip-path="url(#p67e7843259)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_2">
       <defs>
-       <path id="m2b148909a1" d="M 0 0 
+       <path id="m41690693be" d="M 0 0 
 L 0 3.5 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#m2b148909a1" x="256.707823" y="374.605464" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m41690693be" x="256.705722" y="374.605464" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_1">
       <!-- 2025 -->
-      <g transform="translate(230.190362 402.785807) rotate(-30) scale(0.1 -0.1)">
+      <g transform="translate(230.188261 402.785807) rotate(-30) scale(0.1 -0.1)">
        <defs>
         <path id="SegoeScript-32" d="M 4463 622 
 Q 4463 556 4425 469 
@@ -252,18 +252,18 @@ z
     </g>
     <g id="xtick_2">
      <g id="line2d_3">
-      <path d="M 485.537506 374.605464 
-L 485.537506 29.04 
-" clip-path="url(#p9b7ef696b6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+      <path d="M 485.532806 374.605464 
+L 485.532806 29.04 
+" clip-path="url(#p67e7843259)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_4">
       <g>
-       <use xlink:href="#m2b148909a1" x="485.537506" y="374.605464" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m41690693be" x="485.532806" y="374.605464" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_2">
       <!-- 2026 -->
-      <g transform="translate(459.020045 402.785807) rotate(-30) scale(0.1 -0.1)">
+      <g transform="translate(459.015345 402.785807) rotate(-30) scale(0.1 -0.1)">
        <defs>
         <path id="SegoeScript-36" d="M 4281 1472 
 Q 4281 1316 4218 1177 
@@ -696,16 +696,16 @@ z
      <g id="line2d_5">
       <path d="M 41.33 358.897943 
 L 709.2 358.897943 
-" clip-path="url(#p9b7ef696b6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67e7843259)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_6">
       <defs>
-       <path id="mfb07ea819d" d="M 0 0 
+       <path id="m9de377c8cd" d="M 0 0 
 L -3.5 0 
 " style="stroke: #000000; stroke-width: 0.8"/>
       </defs>
       <g>
-       <use xlink:href="#mfb07ea819d" x="41.33" y="358.897943" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m9de377c8cd" x="41.33" y="358.897943" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_4">
@@ -787,11 +787,11 @@ z
      <g id="line2d_7">
       <path d="M 41.33 44.747521 
 L 709.2 44.747521 
-" clip-path="url(#p9b7ef696b6)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
+" clip-path="url(#p67e7843259)" style="fill: none; stroke: #b0b0b0; stroke-width: 0.8; stroke-linecap: square"/>
      </g>
      <g id="line2d_8">
       <g>
-       <use xlink:href="#mfb07ea819d" x="41.33" y="44.747521" style="stroke: #000000; stroke-width: 0.8"/>
+       <use xlink:href="#m9de377c8cd" x="41.33" y="44.747521" style="stroke: #000000; stroke-width: 0.8"/>
       </g>
      </g>
      <g id="text_5">
@@ -1410,9 +1410,9 @@ z
    </g>
    <g id="line2d_9">
     <path d="M 71.687727 358.897943 
-L 583.452955 44.747521 
+L 583.447143 44.747521 
 L 678.842273 44.747521 
-" clip-path="url(#p9b7ef696b6)" style="fill: none; stroke: #0000ff; stroke-width: 1.5; stroke-linecap: square"/>
+" clip-path="url(#p67e7843259)" style="fill: none; stroke: #0000ff; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="patch_3">
     <path d="M 41.33 374.605464 
@@ -2650,7 +2650,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="p9b7ef696b6">
+  <clipPath id="p67e7843259">
    <rect x="41.33" y="29.04" width="667.87" height="345.565464"/>
   </clipPath>
  </defs>
